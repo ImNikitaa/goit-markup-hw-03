@@ -15,6 +15,7 @@ ul, ol {
 
 .img {
     display: block;
+    max-width: 100%;
 }
 
 body {
@@ -25,9 +26,9 @@ body {
 }
 
 .container {
-    width: 100%;
     max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
     outline: 2px solid red;
 }
 
@@ -227,7 +228,7 @@ body {
 }
 
 .we-doing-item {
-    width: calc((100% - 72px) /2);
+    width: calc((100% - 72px) /3);
 }
 
 /*--------------- TEAM ----------------*/
@@ -289,6 +290,8 @@ body {
 }
 
 .footer-text {
+    display: flex;
+    max-width: 264px;
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
