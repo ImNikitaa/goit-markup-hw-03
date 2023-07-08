@@ -345,7 +345,7 @@ body {
 }
 
 .portfolio-main-item {
-    background-color: #FFF;
+    
 }
 
 .portfolio-btn:hover,
@@ -355,7 +355,7 @@ body {
 }
 
 .section-subtitle {
-    margin: 0px 16px;
+    padding: 32px 16px 0px;
     margin-bottom: 8px;
 }
 
@@ -373,5 +373,5 @@ body {
     display: block;
     border: solid #E7E9FC;
     border-width: 0px 1px 1px 1px;
-    margin: auto 0;
+    background-color: #FFF;
 }
