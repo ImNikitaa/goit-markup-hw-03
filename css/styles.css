@@ -114,7 +114,6 @@ body {
 .header-menu-link {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-socials {
@@ -130,6 +129,7 @@ body {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0;
 }
 
 .header-menu-item:hover,
@@ -158,9 +158,6 @@ body {
 
 .hero {
     background-color: var(--accent-color);
-}
-
-.hero-container {
     padding-top: 188px;
     padding-bottom: 188px;;
 }
@@ -225,9 +222,10 @@ body {
 }
 
 .we-doing-title {
+    display: flex;
     max-width: 323px;
     margin: 0 auto;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .we-doing-list {
@@ -271,11 +269,13 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .team-text {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 
@@ -283,11 +283,12 @@ body {
 
 .footer {
     background-color: var(--accent-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+
 }
 
 .footer-logo {
