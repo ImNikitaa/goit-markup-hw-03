@@ -383,7 +383,7 @@ body {
 
 .prt-text-cont {
     display: block;
-    padding: 16px 32px;
+    padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
     background-color: #FFF;
