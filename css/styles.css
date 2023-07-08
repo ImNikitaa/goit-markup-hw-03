@@ -336,7 +336,7 @@ body {
 
 
 .portfolio-main-list {
-    width: 101%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -346,7 +346,6 @@ body {
 
 .portfolio-main-item {
     background-color: #FFF;
-    border: 1px solid #E7E9FC;
 }
 
 .portfolio-btn:hover,
@@ -356,7 +355,7 @@ body {
 }
 
 .section-subtitle {
-    margin: 32px 16px 0px 16px;
+    margin: 0px 16px;
     margin-bottom: 8px;
 }
 
@@ -368,4 +367,11 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+
+.prt-text-cont {
+    display: block;
+    border: solid #E7E9FC;
+    border-width: 0px 1px 1px 1px;
+    margin: auto 0;
 }
